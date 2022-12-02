@@ -1,0 +1,142 @@
+
+// HOME//
+#newsHome{
+    height: 75vh;
+    background-image: url('https://images6.alphacoders.com/128/1283584.jpg');
+    background-size: cover;
+    background-position: center;
+    a{
+      background-image: linear-gradient( 76.3deg,  rgba(44,62,78,1) 12.6%, rgba(69,103,131,1) 82.8% );
+      color: turquoise;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10%;
+    }
+  
+      a:hover{
+      background-color:  #04BFAD;
+      color: white;
+      font-size: 22px;
+      border: 2px solid white;
+    }
+    }
+  
+    .overlayTexteHome{
+      background-color: rgba(0,0,0,0.4);
+      padding: 1rem;
+    }
+    
+  
+    h2{
+      color: turquoise;
+      font-size: 2rem;
+      letter-spacing: 5px;
+      font-family: 'got';
+    }
+  
+  
+  .texteHome{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    gap: 25px;
+  }
+  
+  .logoHome{
+    display: flex;
+    align-items: center;
+    
+    
+    
+  }
+  
+  .filmHome{
+    width: 500px;
+    text-align: center;
+    line-height: 60px;
+    
+  }
+  
+  .resumeFilm{
+    width: 600px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto-Regular';
+  
+  }
+  
+  .bandeA{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+    
+  }
+  
+  
+  // Caroussel MOVIES//
+  
+  #movie{
+    padding-top: 15px;
+   
+  }
+  #serie
+  {
+    padding-bottom: 30px;
+  }
+  .h2Films{
+    padding: 70px 0 30px 15px;
+    
+  }
+  .h2Series{
+    padding: 70px 0 30px 15px;
+  }
+
+  .h2Series::before,.h2Films::before {
+    content: "";
+    margin: 10px;
+    border: #04BFAD 2px solid;
+  }
+  
+  .h2Series::after,.h2Films::after {
+    content: "";
+    margin: 10px;
+    border: #04BFAD 2px solid;
+  }
+  .carousel{
+    position: relative;
+  }
+  .carousel .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 2rem;
+    text-align: left;
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     h2{
+      padding-bottom: 15px;
+     }
+   
+  }
+  
+  .overlayResume{
+    width: 50%;
+  }
+  
+  
+  .thumbs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+ 

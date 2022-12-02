@@ -1,0 +1,55 @@
+ //PAGE FILM//
+  
+ .filmArticles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px 0 20px 0;
+  
+    h2{
+      margin: 30px;
+    }
+  
+    p{
+      margin: 50px;
+      padding: 20px;
+      width: 50%;
+      text-align: center;
+      color: white;
+      background-color: black;
+      border: 1px solid #04BFAD;
+      box-shadow: 2px 2px 2px 2px;
+      
+    }
+  }
+    .filmName{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #04BFAD;
+      width:50%;
+      height:4rem;
+      margin:auto;
+      text-align:center;
+      position:relative;
+    }
+    
+    .filmName:before{
+      content:'';
+      position:absolute;
+      left:calc(-50% - 5px);
+      top:calc(50% - 3px);
+      border: 1px solid #04BFAD;
+      width:50%;
+    }
+    
+    .filmName:after{
+      content:'';
+      position:absolute;
+      right:calc(-50% - 5px);
+      top:calc(50% - 3px);
+      border: 1px solid #04BFAD;
+      width:50%;
+    }

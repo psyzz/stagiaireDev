@@ -1,0 +1,75 @@
+// NAV //
+.logo{
+    height: 100px;
+    width: 100px;
+   
+   }
+   .navBar{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);  
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    width: 100%;
+    min-height: 75px;
+    input{
+      height: 20px;
+      align-self: center;
+    }
+  }
+   .navContainer{
+     display: flex;
+     gap: 30px;
+     
+     .navLink{
+       padding: 0 0.3rem;
+      
+     }
+   
+   
+     a{
+       color: black;
+       font-family: 'legends';
+       font-size: 2rem;
+     }
+     a:hover{
+       color: #04BFAD ;
+     }
+   }
+   .inputNav{
+     display: 	flex;
+   }
+   
+   .navBurger{
+     width: auto;
+     height: 40px;
+     background: transparent;
+     color: inherit;
+     display: none;
+   }
+   
+//POP UP //
+#popup-root{
+    position: absolute;
+    top: 80px;
+    right: 57%;
+  
+  }
+  
+  .popup-overlay{
+    position: absolute !important;
+  }
+  
+  .modalConnection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid black;
+    padding: 15px;
+    background-color: gray;
+  }
+  
+  //FILMS//

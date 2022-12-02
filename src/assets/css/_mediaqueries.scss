@@ -1,0 +1,150 @@
+// RESPONSIVE//
+@media screen and (max-width : 1115px) {
+    .serieDiv{
+      width: 45%;
+    }
+  }
+  
+  @media screen and (max-width : 800px) {
+    .filmHome {
+      width: auto;
+     
+    }
+  
+    .filmArticles img {
+      height: 400px;
+      width: auto;
+  }
+    .resumeFilm{
+      width: auto;
+    }
+    .carousel .overlay{
+      display: block;
+      p{
+        width: auto;
+      }
+    }
+    .navContainer{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      right: -100vw;
+      width: 0;
+      bottom: 0;
+      height: 100vh;
+      padding: 2rem;
+      background-color: black;
+      visibility: hidden;
+      transition: all 0.8s ease-out;
+      a{
+        color: white;
+      }
+   
+  
+    }
+    .showNav .navContainer{
+      right: 0;
+      width: 100vw;
+      visibility: visible;
+      z-index: 5;
+    }
+    .navLink{
+      display: block;
+      padding: 1.5rem;
+      font-size: 5vw;
+  
+    }
+    .navBurger{
+      display: block;
+      top: 1rem;
+      right: 1rem;
+      z-index: 5;
+  
+    }
+    .navBurger:hover{
+      cursor: pointer;
+      z-index: 5;
+    }
+  
+    .burgerBar,
+    .burgerBar::before,
+    .burgerBar::after{
+      display: block;
+      width: 40px;
+      height: 3px;
+      position: relative;
+      border-radius: 3px;
+      background: white;
+      transition: all .5s ease-in-out;    
+    }
+  
+    .burgerBar::before,
+    .burgerBar::after{
+     content: ""; 
+     position: absolute;
+     left: 0;
+    }
+  
+    .burgerBar::before{
+      transform: translateY(-12px);
+    }
+  
+    
+    .burgerBar::after{
+      transform: translateY(12px);
+      
+    }
+  
+    .showNav .burgerBar{
+      background: transparent;
+    }
+  
+    .showNav .burgerBar::before{
+      transform: rotate(45deg);
+    }
+    .showNav .burgerBar::after{
+      transform: rotate(-45deg);
+    }
+  
+  }
+  @media screen and (max-width : 800px) {
+  
+    .filmArticles img {
+      height: auto;
+      width: 100vw;
+  }
+  
+  }
+  
+  @media screen and (max-width : 600px){
+  
+   .serieArticle .control-arrow{
+    display: none;
+   }
+    
+    .navBar{
+      gap: 0px;
+    }
+    #newsHome{
+      height: auto;
+    }
+  
+    .homeMovies{
+      height: auto;
+    }
+    h2{
+      font-size: 16px;
+      text-align: center;
+  
+    }
+  
+    p{
+      display: none;
+    }
+
+    table td{
+      padding: 0;
+    }
+  }
+

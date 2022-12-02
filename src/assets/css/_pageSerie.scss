@@ -1,0 +1,68 @@
+//SERIES//
+#seriesContainer{
+  padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 	20px;
+    padding-bottom: 25px;
+    
+  }
+  
+  .serieDiv{
+    width: 23%;
+    height: auto;
+    padding-bottom:20px ;
+  
+  }
+  
+  .serieArticle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    border: 2px solid rgba(37, 202, 214, 0.349);
+    background-color: rgba(17, 176, 230, 0.349);
+    box-shadow: 5px 5px 5px 5px;
+    h2{
+      color: goldenrod;
+      font-size: 10px;
+      width: auto;
+      text-align: center;
+    }
+    p{
+      text-align: center;
+    }
+  }
+  
+  .modalSummary{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 30px;
+    align-items: center;
+    height: 500px;
+    overflow-y: scroll ,hidden;
+    overflow-x: hidden;
+    border: 1px rgb(32, 178, 171) solid;
+    background-color: rgba(0, 0, 0, 0.253);
+
+    svg{
+      color: gold;
+    }
+   
+  }
+
+  .pageSerie .carousel .thumbs-wrapper {
+   display: none;
+  
+  }
+  
+  .pageSerie .carousel{
+   height: auto;
+  }
