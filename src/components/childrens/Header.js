@@ -7,6 +7,9 @@ const Header = () => {
     const [open, setOpen] = useState(false);
     const closeModal = () => setOpen(false);
     const [showLinks, setShowLinks ] = useState(false);
+
+    //Creation de la viariable qui sera utilisé pour mon button burger de la nav//
+    
     const handleShowLinks = () =>{
         setShowLinks(!showLinks)
     }

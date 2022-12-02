@@ -23,7 +23,7 @@ class Login extends React.Component {
     let i;
     let user;
     let users = [
-      ['Atif', 'zourgani', 'atif@gmail.com', 'devDu33!', 'user'],
+      ['Atif', 'zourgani', 'atif@gmail.com', 'dev!', 'user'],
       ['Diego', 'toto', 'diego@gmail.com', 'diegoDu33', 'user'],
       ['Arthur', 'titi', 'arthur@gmail.com', 'arthurDu33', 'user'],
       ['Emma', 'tata', 'emma@gmail.com', 'emmaDu33', 'user'],
@@ -60,7 +60,7 @@ class Login extends React.Component {
       })}
 
  //Delaration des retours suite au login //     
-
+      
     users.forEach((user, i) => {
       if(inputMail.value == user[2] && inputPassword.value == user[3] && inputMail.value){
           log = true;
@@ -69,7 +69,7 @@ class Login extends React.Component {
   })
       if(log == true){
        erreur.innerHTML = 'Bienvenue sur VidDev'
-      }if(inputMail.value == 'admin' && inputPassword.value == 'admin'){
+      }else if(inputMail.value == 'admin' && inputPassword.value == 'admin'){
           showUsers()
       }else{
       erreur.innerHTML = 'Mot de passe ou mail incorrect';
